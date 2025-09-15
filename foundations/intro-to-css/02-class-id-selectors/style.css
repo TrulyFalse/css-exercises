@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+.odd {
+    background-color: hsl(0,100%,80%);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#num2 {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#num4 {
+    background-color: rgb(60%,100%,60%);
+    font-size: 24px; /* this could be avoided if you just added "cooler" class to element with id 'num4' */
+    font-weight: 800;
+}
