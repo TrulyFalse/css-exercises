@@ -24,3 +24,48 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+/*ans*/
+.header, .header ul, .footer, .footer ul{
+  display: flex;
+}
+
+.header, .footer{
+  padding: 0.2em 1em;
+  justify-content: space-between;
+}
+
+.header ul, .footer ul{
+  gap: 1em;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.header a, .footer a{
+  text-decoration: none;
+  color: hsl(0, 0%, 40%)
+}
+
+.footer{
+  background-color: hsl(0, 0%, 90%);
+}
+
+.content{
+  align-self: center;
+  text-align: center;
+}
+
+.content button{
+  padding: 0.5rem 1em;
+}
+.content input[type=text]{
+  margin: 1em;
+}
+
+.page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
